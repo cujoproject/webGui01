@@ -2,7 +2,7 @@
   "name": "coreui-react",
   "version": "1.0.0-alpha.6",
   "description": "CoreUI React Open Source Bootstrap Admin Template",
-  "author": "Łukasz Holeczek <lukasz@holeczek.pl>",
+  "author": "Holeczek <lukasz@holeczek.pl>",
   "url": "http://coreui.io",
   "copyright": "Copyright 2017 creativeLabs Łukasz Holeczek",
   "license": "MIT",
@@ -28,8 +28,7 @@
     "style-loader": "^0.18.2",
     "uglify-js": "^3.0.27",
     "url-loader": "^0.5.9",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.11.1"
+    "webpack": "^3.10.0"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
@@ -43,7 +42,8 @@
     "react-dom": "^15.6.1",
     "react-router-dom": "4.1.2",
     "reactstrap": "^4.8.0",
-    "simple-line-icons": "^2.4.1"
+    "simple-line-icons": "^2.4.1",
+    "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
     "dev": "webpack -d --progress --watch",
